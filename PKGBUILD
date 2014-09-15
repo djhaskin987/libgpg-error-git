@@ -11,7 +11,7 @@ license=('LGPL')
 url="http://www.gnupg.org/"
 depends=('glibc' 'sh')
 makedepends=('git' 'automake-1.11')
-provides=("libgpg-error-git=${pkgver}")
+provides=("libgpg-error-git=${pkgver}" "libgpg-error")
 conflicts=('libgpg-error')
 replaces=('libgpg-error')
 
